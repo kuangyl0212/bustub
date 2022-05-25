@@ -47,6 +47,8 @@ class ClockReplacer : public Replacer {
 
  private:
   // TODO(student): implement me!
+  std::vector<std::pair<bool, bool>> placeholders;
+  frame_id_t clock_hand;
 };
 
 }  // namespace bustub
